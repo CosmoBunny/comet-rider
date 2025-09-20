@@ -1,0 +1,196 @@
+@import "comet-rider.css";
+
+#zen-main-app-wrapper {
+  background-color: var(--dusttail) !important;
+}
+
+#appMenu-mainView {
+  background-color: var(--dusttail) !important;
+}
+
+#appmenu-moreTools {
+  background-color: var(--dusttail) !important;
+}
+
+#PanelUI-button {
+  --button-active-bgcolor: black !important;
+}
+
+#zen-media-progress-bar {
+  background-color: var(--layercrest) !important;
+}
+
+toolbar#nav-bar {
+  margin: 0 !important;
+  border: 0.3em solid var(--core);
+}
+
+panel#appMenu-popup {
+  background-color: var(--coma) !important;
+  border-radius: 1em !important;
+  border: 4px var(--core) solid;
+  opacity: 0.6;
+  &:hover {
+    opacity: 1;
+  }
+  * {
+    border-radius: 0.5em !important;
+  }
+}
+
+
+tabpanels#tabbrowser-tabpanels {
+  background-color: var(--dusttail) !important;
+  margin: 0em !important;
+  hbox {
+    margin: 0.4em !important;
+    box-shadow: 0 0 10px black !important;
+    border-radius: 1em !important;
+    transition: all 0.4s !important;
+  }
+  & .deck-selected {
+    border-radius: 1em !important;
+    box-shadow: 0 0 !important;
+    margin: 0 !important;
+  }
+  &:hover .deck-selected {
+    box-shadow: 0 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+hbox#statuspanel{
+  background-color: var(--coma) !important;
+  opacity: 0.9;
+  padding: 0 !important;
+  transition: all 0.4s !important;
+}
+
+hbox#zen-tabbox-wrapper{
+  margin: 0 !important;
+}
+
+toolbox#navigator-toolbox {
+  background-color: transparent !important;
+  border: 1em solid aliceblue;
+  top: 0em !important;
+  border-radius: 0.5em;
+  opacity: 0.6;
+  transition: all 0.5s !important;
+
+  
+  &[zen-has-hover="true"] {
+    opacity: 1;
+  }
+}
+
+
+#titlebar {
+  background-color:  var(--coma) !important;
+  margin-top: 0.2em;
+  border-radius: 1em !important;
+  border: 0.3em solid var(--core);
+}
+
+#zen-appcontent-navbar-container {
+  background-color: var(--coma) !important;
+}
+
+.menu-text {
+  color: var(--text) !important;
+}
+
+.menuitem-iconic {
+  color: var(--core) !important;
+}
+
+
+:not(:not(menubar) > menu, #ContentSelectDropdown)>menupopup>menuitem:not(.menuitem-iconic,
+  [type="checkbox"],
+  [type="radio"],
+  .in-menulist,
+  .in-menulist menuitem,
+  .unified-nav-current),
+:not(:not(menubar) > menu, #ContentSelectDropdown)>menupopup>menu:not(.menu-iconic,
+  [type="checkbox"],
+  [type="radio"],
+  .in-menulist,
+  .in-menulist menu,
+  .unified-nav-current),
+#toggle_toolbar-menubar,
+#PanelUI-history toolbarbutton,
+#unified-extensions-context-menu menuitem {
+  fill: var(--text) !important;
+}
+
+html#main-window {
+  --lwt-text-color: var(--text) !important;
+  --toolbarbutton-icon-fill: var(--core) !important;
+  --toolbar-field-color: var(--nucleus) !important;
+  --toolbar-field-focus-color: var(--nucleus) !important;
+  --toolbar-field-background-color: var(--layercrest) !important;
+  --toolbar-field-focus-background-color: var(--layercrest) !important;
+
+  --zen-colors-primary: var(--iontail) !important;
+  --zen-colors-secondary: var(--dusttail) !important;
+  --zen-colors-tertiary: var(--coma) !important;
+  --zen-colors-border: var(--coma) !important;
+  --zen-dialog-background: var(--dusttail) !important;
+
+  --arrowpanel-color: var(--text) !important;
+}
+
+#urlbar {
+  top: 0.2em !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+  border: none !important;
+  backdrop-filter: blur(5px) !important;
+  transition: all 0.5s !important;
+  border-radius: 1.2em !important;
+  backdrop-filter: blur(5px) !important;
+  background-color: var(--coma) !important;
+  &[breakout-extend="true"] {
+    opacity: 0.92;
+    top: 4em !important;
+  }
+}
+
+findbar {
+  backdrop-filter: blur(5px) !important;
+  background-color: transparent !important;
+  border: none !important;
+
+  & checkbox {
+    padding: 0.3em;
+    & hbox {
+      padding: 0.2em !important;
+    }
+  }
+}
+
+.findbar-container {
+  opacity: 0.96;
+  background-color: var(--coma) !important;
+}
+
+.findbar-closebutton {
+  background-color: var(--coma) !important;
+  height: 100% !important;
+  margin: 0 !important;
+  transition: all 0.5s !important;
+
+  &:hover {
+    transform: scale(1.3) !important;
+  }
+}
+
+.urlbar-input-container {
+  border-radius: 1em !important;
+}
+
+#urlbar-background {
+  border: 2px solid var(--dusttail) !important;
+  backdrop-filter: blur(5px) !important;
+  transition: all 0.4s !important;
+}
