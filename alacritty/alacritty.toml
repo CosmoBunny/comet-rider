@@ -1,0 +1,61 @@
+[colors.primary]
+foreground = "#22eeff"        # Cyan-like vibrant text
+background = "#010127"        # Dark navy blue background
+dim_foreground = "#908caa"
+bright_foreground = "#e0def4"
+
+[colors.cursor]
+text = "#e0def4"
+cursor = "#524f67"
+
+[colors.selection]
+text = "#22eeee"       # Selected text
+background = "#26233a"
+
+[colors.normal]
+black = "#26233a"
+red = "#eb5f7f"
+green = "#31ef65"
+yellow = "#f6c177"
+blue = "#2254ff"    # Cyan as blue
+magenta = "#c4a7e7"
+cyan = "#22ffff"
+white = "#e0def4"
+
+[colors.bright]
+black = "#6e6a86"
+red = "#eb6f92"
+green = "#31ef88"
+yellow = "#fed197"
+blue = "#22ddff"
+magenta = "#c4a7e7"
+cyan = "#11eeff"
+white = "#e0def4"
+
+[window]
+padding = { x = 3, y = 3 }
+blur = false
+opacity = 0.72
+decorations = "none"
+dynamic_padding = true
+
+[cursor]
+style = { shape = "Underline", blinking = "On" }
+blink_timeout = 8
+blink_interval = 500
+thickness = 0.15
+
+[scrolling]
+multiplier = 3
+
+[bell]
+animation = "EaseOutCubic"
+duration = 200
+color = "#010127"
+
+[font]
+normal = { family = "CaskaydiaCove NF", style = "Regular" }
+bold = { family = "CaskaydiaCove NF", style = "Regular" }
+italic = { family = "AnonymicePro Nerd Font", style = "Bold Italic" }
+builtin_box_drawing = true
+size = 13
